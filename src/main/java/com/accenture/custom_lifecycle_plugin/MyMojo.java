@@ -39,6 +39,7 @@ public class MyMojo
 {
     /**
      * Location of the file.
+     * 
      */
     @Parameter( defaultValue = "${project.build.directory}", property = "outputDir", required = true )
     private File outputDirectory;
